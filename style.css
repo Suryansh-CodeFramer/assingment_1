@@ -1,0 +1,47 @@
+@font-face {
+    font-family: one;
+    src: url(./Ghastly\ Panic.ttf);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/1200x/98/fd/37/98fd37f2afc50e5a72cf76b6013e6d8f.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #660000;
+}
+h1{
+    padding-top: 15px;
+    font-size: 110px;
+    font-weight: 500;
+    font-family: one;
+    padding-left: 600px;
+}
+button{
+    margin-left: 600px;
+    margin-top: 20px;
+    font-size: 100px;
+    font-weight: 100;
+    font-family: one;
+    border: none;
+    color: #000000;
+    border-radius: 30px;
+    background:#660000;
+    padding: 10px;
+}
+button:hover{
+    background: transparent;
+    color: #660000;
+    transform: scale(1.05);
+    border:2px solid #660000;
+}
